@@ -1,7 +1,22 @@
 {
     "name": "fayax/php-sapb1-v2",
+    "type": "library",
     "description": "SAP Business One Library for PHP, forked from syedhussim/php-sapb1-v2",
+    "keywords": ["sap"],
+    "homepage": "https://github.com/fayax/php-sapb1-v2",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ismail Fayaz",
+            "role": "Developer"
+        }
+    ],
     "require": {
-        "php": ">=7.4"
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SAPb1\\": "SAPb1"
+        }
     }
 }

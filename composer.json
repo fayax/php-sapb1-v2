@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "SAPb1-v2\\": "SAPb1-v2"
+            "SAPb1\\": "SAPb1"
         }
     }
 }
